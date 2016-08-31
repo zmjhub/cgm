@@ -1,0 +1,204 @@
+/* CSS Document */
+.aboutUs .menuBox {
+	height:415px;
+	
+}
+.aboutUs .level2Menu{
+	height:380px;
+}
+
+.detail p{
+	font-size:14px;
+	line-height:25px;
+	margin-top:10px;
+	text-indent:2em;
+}
+/*集团介绍*/
+.jtjs .detail .list{
+	float:left;
+	width:40%;
+	height:70px;
+	margin:20px 40px 20px 20px;
+	border:1px solid #d6d6d6;
+	position:relative;
+}
+.jtjs .detail .list a{
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	opacity:0;
+	background-color:rgba(58, 41, 11, 0.39);
+}
+.jtjs .detail .list a:hover{
+	opacity:1;
+}
+.jtjs .detail .list img{
+	margin:10px 10px 15px 20px;
+}
+.jtjs .detail .list label{
+	line-height:70px;
+	color:#79282e;
+	font-size:18px;
+}
+.jtjs .title2{
+	width: 700px;
+    padding: 2px 0;
+    border-bottom: 1px solid #000;
+    margin: 20px 0 10px 0;
+}
+.jtjs .title2 h2{
+	padding: 2px 5px;
+    border-left: 2px solid #79282e;
+}
+.jtjs .joinUs{
+	float:left;
+	width:130px;
+	text-align:center;
+	margin:10px 125px 0 0;
+	border:1px solid white;
+	padding-bottom:10px;
+}
+.jtjs .joinUs:hover{
+	border:1px solid #79282e;
+}
+.jtjs .joinUs:last-child{
+	margin-right:0;
+}
+.jtjs .joinUs h2{
+	color:#203675;
+}
+.jtjs .joinUs h4{
+	margin:10px 0;
+}
+.jtjs .joinUs a{
+	display:block;
+	width:80px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	background-color:#27588f;
+	color:#fff;
+}
+/*----监管政策------*/
+.jgzc .EnglandMarket{
+	width:400px;
+}
+.jgzc .detail p{
+	text-indent:0;
+}
+.jgzc .title2
+{
+	width:700px;
+	padding: 2px 0;
+    border-bottom: 1px solid #000;
+	margin:20px 0 10px 0;
+}
+.jgzc .title2 h3{
+	padding:2px 5px;
+    border-left: 2px solid #79282e;
+}
+.jgzc .content2{
+	width:700px;
+	padding-left:20px;
+}
+.jgzc .detail .paizhao{
+	position:relative;
+}
+.jgzc .detail .paizhao label{
+	position:absolute;
+	left:48%;
+	top:58%;
+	font-size:12px;
+}
+/*公司新闻*/
+.news_list {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    border-bottom: 1px dashed gray;
+}
+.news_list a{
+	color:#79282e;
+}
+.news_pic {
+    width: 30%;
+    height: 198px;
+    float: left;
+	text-align:center;
+}
+.news_text {
+    width: 70%;
+    height: 198px;
+    float: right;
+}
+.news_list .source{
+	margin-top:25px;
+}
+/*资金安全*/
+.zjaq .img>div{
+	width:20%;
+	float:left;
+	margin-top:20px;
+	margin-bottom:30px;
+}.zjaq .img>div p{
+	text-align:center;
+	line-height:18px; 
+    text-indent: 0;
+}
+
+.zjaq  p{
+	text-indent:0;
+}
+.zjaq .detail h1{
+	margin-top:35px;
+}
+.zjaq .detail h3{
+	margin:20px 0;
+}
+.zjaq .idea h3,.zjaq .idea p{
+	margin:0;
+	line-height:20px;
+}
+.zjaq .idea h3{
+	margin-bottom:5px;
+}
+.zjaq .idea{
+	width:48%;
+	float:left;
+	overflow:hidden;
+	margin-right:10px;
+	margin-top:20px;
+}
+.zjaq .idea>.right{
+	width:75%;
+}
+.zjaq .title2{
+	font-size:20px;
+	color:#000;
+	text-indent:1.5em;
+	background:url(../images/zjaq04_03.png) no-repeat;
+}
+.zjaq p.aq{
+	background-position: -13px 0px;
+}
+.zjaq p.celue{
+	background-position: -13px -47px;
+}
+.zjaq p.baozhang{
+	background-position: -13px -106px;
+}
+.zjaq p.tixing{
+	background-position: -13px -150px;
+}
+.zjaq h3{
+	font-weight:100;
+	margin:10px 0;
+}
+/*cgm声明*/
+.cgmsm h1{
+	margin-bottom:10px;
+}
+.cgmsm p{
+	margin-bottom:40px;
+}

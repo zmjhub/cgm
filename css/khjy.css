@@ -1,0 +1,67 @@
+/* CSS Document */
+.download .title{
+	border-bottom:1px solid #000;
+	padding:2px;
+	margin-bottom:10px;
+}
+.download .title h2{
+	font-size:20px;
+	color:#000;
+	padding:5px 10px;
+	border-left:2px solid #79282e;
+}
+.advantage h3{
+	color:#79282e;
+	text-indent:3em;
+	margin:25px 0 10px 0;
+}
+.advantage i{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background-image:url(../images/icon.png);
+	background-repeat:no-repeat;
+	background-position:-55px -29px;
+	margin-right:5px;
+}
+ .advantage .pic{
+	margin-left:90px;
+	margin-top:20px;
+	}
+.advantage .left span{
+	display:inline-block;
+}
+.advantage .left ul{
+	margin-left:50px;
+}
+.advantage ul li{
+	padding:5px 0;
+}
+.advantage .software,.advantage .openAccount{
+	display:inline-block;
+	width:180px;
+	font-size:16px;
+	height:35px;
+	line-height:35px;
+	color:#fff;
+	text-align:center;
+}
+.advantage .software{
+	background-color:#79282e;
+	margin-right:20px;
+}
+.advantage .openAccount{
+	background-color:#19a082;
+}
+.duoyh .text{
+	margin:40px 0;
+}
+.download .zhuyaojyys .text{
+	margin:60px 160px 0 0;
+}
+.download .function .text{
+	margin:100px 0 0 160px;
+}
+.download .function .img{
+	margin-left:60px;
+}

@@ -1,0 +1,488 @@
+﻿/* CSS Document */
+.colorRed{
+	color:#79282e;
+}
+.cgmTop{
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #e5e5e5;
+}
+.box_top{
+	width:1000px;
+	padding-top:5px;
+	font-size:12px;
+}
+.box_top a,.logo a
+{
+	color:gray;
+}
+.box_top a{
+	display:inline-block;
+}
+.box_top .focus{
+	width:23px;
+	height:17px;
+	background-image:url(../images/icon.png);
+	background-repeat:no-repeat;
+}
+.box_top .weibo{
+	background-position:0 -1px;
+}
+.box_top .weixin{
+	background-position:0 -31px;
+}
+.box_top .helpCenter{
+	margin:3px 10px;
+}
+.box_top .language{
+	position:relative;
+}
+.language .laguageToggle{
+	width:90px;
+	height:25px;
+	display:inline-block;
+	position:relative;
+	border:1px solid #D0A7A7;
+}
+.laguageToggle a{
+	color:gray !important;
+	position:absolute;
+	left:0;
+	top:-5px;	
+}
+.laguageToggle  i{
+	display:block;
+	position:absolute;
+	right:3px;
+	top:7px;
+	border-left:5px solid transparent;
+	border-right:5px solid transparent;
+	border-top:10px solid gray;
+}
+.otherLanguage{
+	position:absolute;
+	display:none;
+	background-color: rgb(121, 40, 46);
+	top:40px;
+	left:0;
+	width:100px;
+	z-index:10;
+    border: 1px solid gray;
+	padding-bottom: 10px;
+}
+.otherLanguage:after{
+	position:absolute;
+	content:"";
+	left:40%;
+	top:-11px;
+	width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 11px solid rgb(121, 40, 46);
+}
+.otherLanguage a,.laguageToggle a{
+	display:block;
+	float:left;
+	width:84px;
+	color:#fff;
+	height:25px;
+	line-height:30px;
+	text-indent:2.5em;
+	background-repeat:no-repeat;
+}
+
+.language .zw{
+	background-image:url(../images/flag.png);
+    background-position: 2px 7px;	
+}
+.language .rus{
+	background-image:url(../images/flag.png);
+    background-position: 1px -17px;	
+}
+.language .eng{
+	background-image:url(../images/flag.png);
+    background-position:1px -43px;	
+}
+.language .jan{
+	background-image:url(../images/flag.png);
+    background-position:1px -67px;	
+}
+ 
+/*----------------------logo部分----------------*/
+.logo{
+	width:1000px;
+	height:82px;
+}
+.logo_l{
+	padding:20px 120px 15px 120px;
+}
+.logo_r .user{
+	padding-top:10px;
+}
+
+.user label{
+	margin:0 5px
+}
+.logo_r .phoneNum{
+	padding-top:15px;
+	margin-right:-5px;
+}
+/*----------------------导航部分----------------*/
+.nav{
+	width:100%;
+	height:40px;
+	background-color:#79282e;
+	position:relative;
+}
+.box_nav{
+	width:1000px;
+ 	position:relative;
+}
+.box_nav .logoimg{
+	position:absolute;
+	left:0;
+	top:-83px;
+}
+.box_nav a{
+	color:#fff;
+}
+.menuFirst ul li{
+	display:block;
+	float:left;
+}
+.menuFirst ul li a{
+	display:inline-block;
+	padding:0 25px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+}
+.menuFirst ul li:hover{
+	/*background:rgba(0,102,0,0.5);*/
+	background-color:#541B1B;
+}
+.box_nav .menuFirst{
+	padding-left:130px;
+}
+.nav .menuSecond{
+	position:absolute;
+	width:100%;
+	top:40px;
+	background-color:rgba(8, 8, 8, 0.64);
+	height:0;
+	overflow:hidden;
+	z-index:555;
+	transition:0.5s;
+}
+.box_nav:hover~.menuSecond,.nav .menuSecond:hover{
+	height:375px;
+}
+
+.box_nav2{
+	width:1000px; 
+}
+.box_nav2 ul{
+	float:left;
+	width:99px;
+	height:375px;
+	display:block;
+	margin-left:8px;
+}
+.box_nav2 ul li{
+	text-align:center;
+}
+.box_nav2 ul li a{
+	width:100px;
+	display:block;
+	padding:10px 0px;
+	color:black;
+	 
+}
+.box_nav2 .aboutUs{
+	margin-left:104px;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.contentRightBox .location a{
+	color:blue;
+}
+/*-------安全和合作伙伴-----------*/
+.safety{
+	width:1000px;
+	margin-top:35px;
+}
+.safety .title{
+	border-bottom:1px solid gray;
+}
+.safety .title a{
+	padding:9px 20px;
+	background-color:#d9d9d9;
+	float:left;
+	color:#5f2024;
+	border:1px solid gray;
+	border-bottom:0px solid gray;
+	margin-right:-1px;
+}
+.safety .content .list{
+	text-align:center;
+	padding: 20px;
+    margin: 10px 20px 10px 20px;
+	border:1px solid #fff;
+}
+.safety .content .list:hover{
+	border:1px solid #26080a;
+	box-shadow:1px 1px 5px -1px #26080a;
+}
+.content .list h6{
+	line-height:20px;
+}
+.content .list p{
+	font-size:12px;
+	line-height:20px;
+}
+.bottom .hzhb ul{
+	margin-left:40px;
+}
+.bottom .hzhb ul li{
+	display:inline-block;
+	margin-right:50px;
+	border: 1px solid white;
+}
+.bottom .hzhb ul li:hover{
+    border: 1px solid #26080a;
+    box-shadow: 1px 1px 5px -1px #26080a;
+}
+/*--------底部-----------*/
+.footer{
+	background-color:#26080a;
+}
+.footer .menu{
+	width:1000px;
+	padding-left:100px;
+	padding-bottom:80px;
+	position:relative;
+}
+.footer .menu p{
+	position:absolute;
+	bottom:20px;
+	line-height:25px;
+	left:90px;
+	color:;
+}
+.footer .menu:after{
+	content:"";
+	width:100%;
+	left:0;
+	top:10px;
+	border:1px solid #fff;
+	position:absolute;
+}
+.footer .menu ul{
+	float:left;
+	margin:20px 60px auto 0px;
+}
+.footer .menu ul li{
+	line-height:30px;
+}
+.footer .menu a{
+	color:#999899;
+	font-size:12px;
+}
+.footer .menu ul .title{
+	color:#fff;
+	font-weight:bold;
+	margin-bottom:20px;	
+}
+#rwm{
+	margin:30px;
+}
+.info{
+	width:100%;
+	height:45px;
+	background-color:#120203;
+}
+.info ul{
+	display:inline-block;
+	text-align:center;
+	margin-bottom:10px;
+}
+.info .content{
+	width:1000px;
+	text-align:center;
+	padding-top:15px;
+}
+.info .content a,.info p{
+	color:#b7b7b7;
+	font-size:12px;
+	
+}
+.info .content li{
+	float:left;
+	margin-right:5px;
+}
+.mapBj{
+	background:url(../images/map_bj.jpg) no-repeat;
+	background-position:center top;
+}
+.contentPic{
+	text-align:center;
+}
+.contentPic img{
+	width:100%;
+	min-width:800px;
+}
+.content{
+	width:1000px;
+	padding:20px 0;
+}
+.content_right{
+	width:730px;
+	margin-left:20px;
+}
+.level2Menu span{
+	display:block;
+	width:96%;
+	padding-top:30px;
+	color:#79282e;
+	font-size:23px;
+	border-bottom:1px solid #9c9a9a;
+	padding:5px; 
+}
+.level2Menu{
+	width:230px;
+	position:relative;
+}
+.level2Menu ul{
+	position:absolute;
+	left:0;
+	top:30px;
+}
+.level2Menu ul li a{
+	font-size:18px;
+	display:block;
+	width:100%;
+	height:100%;
+	text-indent:3em;
+	color:#000000;
+	background-image:url(../images/icon.png);
+	background-repeat:no-repeat;
+    background-position: 188px -136px;
+}
+.level2Menu ul li{
+	display:block;
+	width:250px;
+	height:45px;
+	line-height:50px;
+	margin-top:15px;
+	
+}
+.activeMenu{
+	background-image:url(../images/menuBj.png);
+	background-repeat:no-repeat;
+    background-size: 250px 55px;
+}
+.activeAlink{
+	color:#fff !important;
+}
+.myNavActive{
+	background-position:0 -24px !important;
+}
+.listMenu{
+	font-size:25px;
+}
+.location{
+	display:block;
+	margin-top:12px;
+}
+.content_right .title{
+	padding-bottom:5px;
+	border-bottom:2px solid #79282e;
+	margin-bottom:30px;
+}
+.menuBox{
+	padding-top:25px;
+	margin:10px;
+	box-shadow: 1px 1px 2px 1px gray;
+}
+.tellUs {
+    width: auto;
+    padding: 20px;
+    display: block;
+    margin: 25px 10px;
+    position: relative;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+.tellUs:after{
+	content:"";
+	width:100%;
+	height:100%;
+	position:absolute;
+	bottom:0;
+	left:53%;
+	background-image:url(../images/MMservice.png);
+	background-repeat:no-repeat;
+}
+/*收缩箭头*/
+.arrowChange{
+	background-position: 0 -57px !important;
+}
+
+/**/
+.serviceMM{
+	position:fixed;
+	right:0;
+	top:50%;
+	transform:translateY(-50%);
+	background:#79282e;
+	z-index:100;
+    padding:15px 0;
+}
+.lunbo .bd ul li img,.serviceMM img{
+	border:0;
+}
+.serviceMM a{
+	display:block;
+	margin:7px;	
+	width:63px;
+	height:75px;
+	background-repeat:no-repeat;
+
+}
+.serviceMM .onlineMM{
+	background-image:url(../images/rightFixed02_03.png);
+	margin-bottom:13px;
+}
+.serviceMM .ruJin{
+	background-image:url(../images/rightFixed02_06.png);
+}
+.serviceMM .account{
+	background-image:url(../images/rightFixed02_08.png);
+}
+.serviceMM .download{
+	background-image:url(../images/rightFixed02_10.png);
+}
+.serviceMM .onlineMM:hover{
+	background-image:url(../images/rightFixed01_03.png);
+	margin-bottom:13px;
+}
+.serviceMM .ruJin:hover{
+	background-image:url(../images/rightFixed01_06.png);
+}
+.serviceMM .account:hover{
+	background-image:url(../images/rightFixed01_08.png);
+}
+.serviceMM .download:hover{
+	background-image:url(../images/rightFixed01_10.png);
+}
+#goTop{
+	display:block;
+	width:100%;
+	height:50px;
+	color:#fff;
+	text-align:center;
+	background:url(../images/goTop.png) no-repeat;
+	background-position:23px 0;
+	line-height:60px;
+	cursor:pointer;
+}

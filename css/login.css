@@ -1,0 +1,79 @@
+/* CSS Document */
+
+.login{
+	width:100%;
+	height:auto;
+	
+}
+.loginBox{
+	width:470px;
+	height:380px;
+	position:absolute;
+	margin-left:-235px;
+	margin-top:-190px;
+	left:50%;
+	top:50%;
+	background-color:#858585;
+	border-radius:3px;
+	padding:20px 15px 25px 25px;
+}
+.loginBox p{
+	margin:10px 0;
+	color:#ffffff;
+}
+.loginBox h2{
+	text-indent:1em;
+	color:#ffffff;
+}
+.loginBox input{
+	width:90%;
+	height:45px;
+	border-radius:5px;
+}
+p.title{
+	font-size:35px;
+}
+#btn_sub{
+	width:160px;
+	margin:40px;
+	font-size:25px;
+	background-image:url(../images/btn_bj.png);
+	background-repeat:no-repeat;
+	background-position:0 -5px;
+	height:45px;
+}
+.forgetPwd{
+	margin:50px;
+	color:red;
+}
+.login .openAccount{
+	width:1000px;
+	padding:50px 0;
+}
+.login .kong{
+	height:485px;
+	position:relative;
+	background:url(../images/map_bj.jpg) center;
+}
+.openAccount a{
+	display:block;
+	width:265px;
+	height:55px;
+	line-height:55px;
+	text-align:center;
+}
+.openAccount #moni{
+	background-color:#d8271c;
+	color:#fff;
+	font-size:29px;
+	margin-left:10%;
+}
+.openAccount p{
+	margin-bottom:50px;
+}
+.openAccount #zhanghu{
+	color:#00d8ff;
+	font-size:29px;
+	border:1px solid #00d8ff;
+	margin-right:10%;
+}

@@ -1,0 +1,589 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<link rel="stylesheet" type="text/css" href="css/account.css">
+<script src="js/jquery-1.9.1.min.js"></script>
+<title>开户交易</title>
+</head>
+
+<body>
+<div class="top">
+  <iframe width="100%" height="160" src="top.html" scrolling="no" frameborder="0"></iframe>
+</div>
+<div class="accountType">
+<div class="box-center accountType_box">
+  <div class="title clear">
+    <ul>
+      <li class="active"><a href="#">账户类型</a></li>
+      <li><a href="#">账户入金</a></li>
+      <li><a href="#">资金提取</a></li>
+      <li><a href="#">交易条件</a></li>
+      <li><a href="#">软件下载</a></li>
+    </ul>
+  </div>
+  <div class="menuContent type">
+    <table border="0" id="type">
+      <tr class="title">
+        <td height="50" colspan="2" align="center" bgcolor="#79282e" class="td_active">微型账户</td>
+        <td height="50" colspan="2" align="center" bgcolor="#d6d6d6">标准账户</td>
+      </tr>
+      <tr class="tdColor">
+        <td width="119" height="60" bgcolor="#ededed" class="tdColor">可选基础货币</td>
+        <td width="325" height="60" align="right" bgcolor="#ededed" class="tdColor">USD, EUR, GBP, JPY, CHF,<br>
+          AUD, HUF, PLN, RUB, SGD, ZAR</td>
+        <td width="119" height="60" bgcolor="#ededed">可选基础货币</td>
+        <td width="262" height="60" align="right" bgcolor="#ededed">USD, EUR, GBP, JPY, CHF,
+          AUD, HUF, PLN, RUB, SGD, ZAR</td>
+      </tr>
+      <tr>
+        <td width="119" height="40">合约大小</td>
+        <td width="325" height="40" align="right">1手 = 1,000个单位</td>
+        <td height="40">合约大小</td>
+        <td width="262" height="40" align="right">1手 = 100,000个单位</td>
+      </tr>
+      <tr>
+        <td width="119" height="60" bgcolor="#ededed">杠杆</td>
+        <td width="325" height="60" align="right" bgcolor="#ededed">1:1 to 888:1 ($5 – $20,000)<br>
+          1:1 to 1:200 ($20,001 - $100,000)<br>
+          1:1 to 1:100 ($100,001 +)</td>
+        <td height="60" bgcolor="#ededed">杠杆</td>
+        <td width="262" height="60" align="right" bgcolor="#ededed">1:1 to 888:1 ($5 – $20,000)
+          1:1 to 1:200 ($20,001 - $100,000)
+          1:1 to 1:100 ($100,001 +)</td>
+      </tr>
+      <tr>
+        <td width="119" height="40">主流货币对点差</td>
+        <td width="325" height="40" align="right">低至 1 个点</td>
+        <td height="40">主流货币对点差</td>
+        <td width="262" height="40" align="right">低至 1 个点</td>
+      </tr>
+      <tr>
+        <td width="119" height="60" bgcolor="#ededed">手续费</td>
+        <td width="325" height="60" align="right" bgcolor="#ededed"><img src="images/Off_03.png" width="41" height="38"></td>
+        <td height="60" bgcolor="#ededed">手续费</td>
+        <td width="262" height="60" align="right" bgcolor="#ededed"><img src="images/Off_03.png" width="41" height="38"></td>
+      </tr>
+      <tr>
+        <td width="119" height="40">单客户最大开/挂单数</td>
+        <td width="325" height="40" align="right">200单</td>
+        <td height="40">单客户最大开/挂单数</td>
+        <td width="262" height="40" align="right">200单</td>
+      </tr>
+      <tr>
+        <td width="119" height="40" bgcolor="#ededed">最小交易量</td>
+        <td width="325" height="40" align="right" bgcolor="#ededed">0.01手数</td>
+        <td height="40" bgcolor="#ededed">最小交易量</td>
+        <td width="262" height="40" align="right" bgcolor="#ededed">0.01手数</td>
+      </tr>
+      <tr>
+        <td width="119" height="40">每单手数限制</td>
+        <td width="325" height="40" align="right">100手数</td>
+        <td height="40">每单手数限制</td>
+        <td width="262" height="40" align="right">30手数</td>
+      </tr>
+      <tr>
+        <td width="119" height="40" bgcolor="#ededed">允许对冲</td>
+        <td width="325" height="40" align="right" bgcolor="#ededed"><img src="images/On_06.png" width="41" height="38"></td>
+        <td height="40" bgcolor="#ededed">允许对冲</td>
+        <td width="262" height="40" align="right" bgcolor="#ededed"><img src="images/On_06.png" width="41" height="38"></td>
+      </tr>
+      <tr>
+        <td width="119" height="40">最低入金</td>
+        <td width="325" height="40" align="right">5美金</td>
+        <td height="40">最低如今</td>
+        <td width="262" height="40" align="right">5美金</td>
+      </tr>
+    </table>
+    <div class="btn"> <a href="javascript:;">建立账户</a> <a href="javascript:;">建立账户</a> </div>
+    <div class="attention clear">
+      <p> <img src="images/i_03.png" alt="" title="" class="left"/>　
+        以上表格仅供参考。XM乐意为每一位客户量身定制解决方案。如果入金货币不是USD，
+        那么最终显示的将是USD转换为入金货币后的数额。 </p>
+      <br/>
+      <p> 请注意，为了确保我们服务器的最佳性能和实现我们订单执行政策中的标准, 长时间未使用的账户需要遵循账户关闭及存档政策。<br/>
+        如果您是外汇新手，那么模拟账户是测试您交易潜力的最佳选择。您可以用虚拟资金交易，不冒任何风险，因为盈亏都是模拟的。在您测试过
+        交易策略、学会掌握市场动向和如何下单之后，您可以开始下一步，建立真实账户，交易真实资金。<br/>
+        此外，开设账户意味着您可以开始体验MetaTrader4，当今最受欢迎、最有效的交易平台。作为一个自动交易软件，MetaTrader4 提供
+        增强的交易功能，以及各种图标和技术指标，大大增加您的交易速度，还可自动处理您的订单。<br/>
+      </p>
+    </div>
+  </div>
+  <!--入金 -->
+  <div class="menuContent zhrj">
+    <div class="condition clear">
+      <div class="tiaojian left">
+        <div class="left img"><img src="images/rujin_03.png" alt="" title=""/></div>
+        <div class="right note">
+          <h1>条件</h1>
+          <p>CGM 不接受任何第三方入金。入金账户的姓名<br>
+            必须与您 CGM 交易账户的姓名完全相同。</p>
+        </div>
+      </div>
+      <div class="tiaojian left">
+        <div class="left img"><img src="images/rujin_05.png" alt="" title=""/></div>
+        <div class="right note">
+          <h1>入金</h1>
+          <p>入金到您的CGM交易账户，首先您需要登陆<br/>
+            会员区，点击菜单栏中的 入金 ，选择一种入<br/>
+            金方式，然后您会收到有关入金的清楚详细的<br>
+            步骤。</p>
+        </div>
+      </div>
+    </div>
+    <div class="electricPay">
+      <div class="menu">
+        <label>电子支付</label>
+        <a href="javascript:;" class="right"></a> </div>
+      <div class="detail">
+        <table width="900" border="0">
+          <tr class="title">
+            <td height="60" align="center"><h2>选项</h2></td>
+            <td height="60" align="center"><h2>CGM账户币种 </h2></td>
+            <td height="60" align="center"><h2>费用</h2></td>
+            <td height="60" align="center"><h2>最小入金（美元）</h2></td>
+            <td height="60" align="center"><h2>时间</h2></td>
+            <td height="60" align="center"><h2>入金</h2></td>
+          </tr>
+          <tr>
+            <td height="60" align="center"><img src="images/rujin_14.png" title="" alt=""/></td>
+            <td height="60" align="center">USD,EUR,GBP,JPY,CHF,AUD,PLN,HUF,SGD,ZAR </td>
+            <td height="60" align="center">费用CGM承担 </td>
+            <td height="60" align="center">最低5美金或等值其他货币金额 </td>
+            <td height="60" align="center">即时</td>
+            <td height="60" align="center"><a href="#" class="btnRujin">入金</a></td>
+          </tr>
+          <tr>
+            <td height="60" align="center"><img src="images/rujin_17.png" title="" alt=""/></td>
+            <td height="60" align="center">SD, EUR, GBP, JPY, CHF, AUD, RUB, PLN, HUF, SGD </td>
+            <td height="60" align="center">费用CGM承担</td>
+            <td height="60" align="center">最低5美金或等值其他货币金额 </td>
+            <td height="60" align="center">即时</td>
+            <td height="60" align="center"><a href="#" class="btnRujin">入金</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--电汇 -->
+    <div class="dianhui">
+      <div class="menu">
+        <label>电汇</label>
+        <a href="javascript:void(0);" class="right"></a> </div>
+      <div class="detail">
+        <div class="detail_a clear">
+          <div class="left">
+            <p>本公司一向以客为本，如客户的国际电汇金额高于1,000美元，本公<br>
+              司会承担该次电汇汇款手续费（最高可免去100美元），大大减低客<br>
+              户交易成本，更易获利。</p>
+          </div>
+          <div class="right">
+            <P>此外，由于办理电汇手续需时，为免客户错失投资良机，因此我们只要<br>
+              收到阁下电汇收据，便会立即把该笔电汇款项存入客户交易账户，<br>
+              让客户可以进行交易。</P>
+          </div>
+        </div>
+        <div class="detail_b clear">
+          <div class="left">
+            <ul>
+              <li>请您填写境外汇款申请书</li>
+              <li>透过所在地区的银行汇款到本公司名下的银行信托账户</li>
+            </ul>
+          </div>
+          <div class="left">
+            <ul>
+              <li>注资后，请把存款证明（单据），并连同客户名称及<br>
+                账户号码 提交予本公司客服进行审核</li>
+              <li>提交方式</li>
+            </ul>
+            <p>&nbsp;&nbsp;&nbsp;1、电邮至cs@gwfx.com</p>
+            <p>&nbsp;&nbsp;&nbsp;2、<a href="#" class="colorRed">联系我们</a></p>
+          </div>
+        </div>
+        <div class="infomation">
+          <ul id="dhAdress">
+            <li>电汇资料(新西兰金道)</li>
+            <li>收款银行名称： DBS BANK (HONG KONG) LIMITED</li>
+            <li>国际汇款代码： DHBKHKHHXXX</li>
+            <li>收款人： Goldenway Global Investments (New Zealand) Limited</li>
+            <li>收款人地址： Unit 17, 33 Apollo Drive, Mairangi Bay, Auckland 0754, New Zealand</li>
+            <li>收款银行账号： 7886304090 (美元)</li>
+            <li>收款银行地址： 16/F, The Center, 99 Queen's Road Central, Hong Kong</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--资金提取 -->
+  <div class="menuContent zjtq">
+    <div class="zjtqBox">
+      <h1>如何提取资金</h1>
+      <p class="colorRed">出金优先权条款</p>
+      <p>出金仅适用于已上传认证文件并拥有已认证交易账户的客户。在账户未认证之前，不能出金。 登录会员专区，选择上传文件（身份
+        认证和地址认证）。客户交易账户认证通过后即可申请账户出金。 </p>
+      <div class="process clear">
+        <div class="list">
+          <p><img src="images/chujin02.png" alt="" title=""/></p>
+          <p>1. 首先登录会员区<br>
+            然后单击出金</p>
+        </div>
+        <div class="list">
+          <p><img src="images/chujin01.png" alt="" title=""/></p>
+          <p>2. 选择您想要的<br>
+            出金方式</p>
+        </div>
+        <div class="list">
+          <p><img src="images/chujin03.png" alt="" title=""/></p>
+          <p>3. 输入金额并<br>
+            提交申请</p>
+        </div>
+        <div class="list">
+          <p><img src="images/chujin04.png" alt="" title=""/></p>
+          <p>4. 申请出金金额将会从您的<br>
+            交易账户中自动扣除</p>
+        </div>
+      </div>
+      <p> 为了防止欺诈行为，遵照2012 DI144-2007-08塞浦路斯证券交易委员会及欧盟相关监管指令，XM会根据出金优先权条款把客户的出金和退款返还到客户初始入金账户中。 </p>
+      <p class="way">1.信用卡。信用卡出金占有最高优先权，不论客户选择哪种方式出金，如当初使用信用卡入金，那么出金必须先满足该方式的入金额度。<br>
+        2.电子钱包类出金 。当您的信用卡和银联入金额度全部出完后才可以执行电子钱包出金方式。<br>
+        3.其他出金方式，如银联出金，当以上两种方式的入金额度全部用完后剩下部分可使用其他方式出金。<br>
+        4.CGM卡。如果您使用过信用卡入金，在申请CGM卡出金前必须先将信用卡入金本金返回信用卡。<br>
+      </p>
+      <p> 所有的出金申请都将会在24小时之内处理，然而所有出金申请当提交后会立即在客户交易帐户中显示为待处理。 客户如选错出金方式，客户的出金申请将完全按照XM出金优先权条款处理。 客户需按照规定申请出金，如果客户入金货币与本平台交易货币不同，XM将免费按照当天汇率将出金货币转换为原始入金货币。 </p>
+      <div class="electricPay">
+        <div class="menu">
+          <label>电子支付</label>
+          <a href="javascript:;" class="right"></a> </div>
+        <div class="detail">
+          <table width="900" border="0">
+            <tr class="title">
+              <td height="60" align="center"><h2>选项</h2></td>
+              <td height="60" align="center"><h2>CGM账户币种</h2></td>
+              <td height="60" align="center"><h2>费用</h2></td>
+              <td height="60" align="center"><h2>最小入金（美元）</h2></td>
+              <td height="60" align="center"><h2>时间</h2></td>
+              <td height="60" align="center"><h2>出金</h2></td>
+            </tr>
+            <tr>
+              <td height="60" align="center"><img src="images/rujin_14.png" title="" alt=""/></td>
+              <td height="60" align="center">USD,EUR,GBP,JPY,CHF,AUD,PLN,HUF,SGD,ZAR </td>
+              <td height="60" align="center">费用CGM承担 </td>
+              <td height="60" align="center">最低5美金或等值其他货币金额 </td>
+              <td height="60" align="center">24小时内执行</td>
+              <td height="60" align="center"><a href="#" class="btnRujin">出金</a></td>
+            </tr>
+            <tr>
+              <td height="60" align="center"><img src="images/rujin_17.png" title="" alt=""/></td>
+              <td height="60" align="center">SD, EUR, GBP, JPY, CHF, AUD, RUB, PLN, HUF, SGD </td>
+              <td height="60" align="center">费用CGM承担</td>
+              <td height="60" align="center">最低5美金或等值其他货币金额 </td>
+              <td height="60" align="center">24小时内执行</td>
+              <td height="60" align="center"><a href="#" class="btnRujin">出金</a></td>
+            </tr>
+            <tr>
+              <td height="60" align="center"><img src="images/chujin05.png" title="" alt=""/></td>
+              <td height="60" align="center">SD, EUR, GBP, JPY, CHF, AUD, RUB, PLN, HUF, SGD </td>
+              <td height="60" align="center">费用CGM承担</td>
+              <td height="60" align="center">最低5美金或等值其他货币金额 </td>
+              <td height="60" align="center">24小时内执行</td>
+              <td height="60" align="center"><a href="#" class="btnRujin">出金</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!--电汇 -->
+      <div class="dianhui">
+        <div class="menu">
+          <label>电汇</label>
+          <a href="javascript:void(0);" class="right"></a> </div>
+        <div class="detail">
+          <div class="detail_a clear">
+            <div class="left">
+              <p>本公司一向以客为本，如客户的国际电汇金额高于1,000美元，本公<br>
+                司会承担该次电汇汇款手续费（最高可免去100美元），大大减低客<br>
+                户交易成本，更易获利。</p>
+            </div>
+            <div class="right">
+              <P>此外，由于办理电汇手续需时，为免客户错失投资良机，因此我们只要<br>
+                收到阁下电汇收据，便会立即把该笔电汇款项存入客户交易账户，<br>
+                让客户可以进行交易。</P>
+            </div>
+          </div>
+          <div class="detail_b clear">
+            <div class="left">
+              <ul>
+                <li>请您填写境外汇款申请书</li>
+                <li>透过所在地区的银行汇款到本公司名下的银行信托账户</li>
+              </ul>
+            </div>
+            <div class="left">
+              <ul>
+                <li>注资后，请把存款证明（单据），并连同客户名称及<br>
+                  账户号码 提交予本公司客服进行审核</li>
+                <li>提交方式</li>
+              </ul>
+              <p>&nbsp;&nbsp;&nbsp;1、电邮至cs@gwfx.com</p>
+              <p>&nbsp;&nbsp;&nbsp;2、<a href="#" class="colorRed">联系我们</a></p>
+            </div>
+          </div>
+          <div class="infomation">
+            <ul id="dhAdress">
+              <li>电汇资料(新西兰金道)</li>
+              <li>收款银行名称： DBS BANK (HONG KONG) LIMITED</li>
+              <li>国际汇款代码： DHBKHKHHXXX</li>
+              <li>收款人： Goldenway Global Investments (New Zealand) Limited</li>
+              <li>收款人地址： Unit 17, 33 Apollo Drive, Mairangi Bay, Auckland 0754, New Zealand</li>
+              <li>收款银行账号： 7886304090 (美元)</li>
+              <li>收款银行地址： 16/F, The Center, 99 Queen's Road Central, Hong Kong</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--交易条件 -->
+  <div class="menuContent jytj">
+    <div class="jytjBox">
+      <div class="clear">
+        <div class="level2Menu left">
+          <div class="leftMenu"> <span>交易条件/Conditions</span>
+            <ul>
+              <li><a href="javascript:;">点差</a></li>
+              <li><a href="javascript:;">保证金</a></li>
+              <li><a href="javascript:;">过夜仓位</a></li>
+              <li><a href="javascript:;">交易时间</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="right diancha jytjImg hide">
+          <div class="list"> <img src="images/jytj01_03.png" alt="" title=""/><br>
+            <p>主要货币对子最低<br>
+              点差0基点</p>
+          </div>
+          <div class="list"> <img src="images/jytj01_05.png" alt="" title=""/><br>
+            <p>100 多种金融商品</p>
+          </div>
+          <div class="list"> <img src="images/jytj01_07.png" alt="" title=""/><br>
+            <p>无佣金或隐藏费用</p>
+          </div>
+          <div class="list"> <img src="images/jytj01_12.png" alt="" title=""/><br>
+            <p>所有类型的交易账<br>
+              户的点差相同</p>
+          </div>
+          <div class="list"> <img src="images/jytj01_14.png" alt="" title=""/><br>
+            <p>最佳执行政策</p>
+          </div>
+          <div class="list"> <img src="images/jytj01_17.png" alt="" title=""/><br>
+            <p>小数点后五位报价</p>
+          </div>
+        </div>
+        <div class="right baozhengjin jytjImg">
+          <div class="list"> <img src="images/jytj_bzj_06.png" alt="" title=""/><br>
+            <p>灵活交易杠杆在<br>
+              1:1至 500:1之间</p>
+          </div>
+          <div class="list"> <img src="images/jytj_bzj_03.png" alt="" title=""/><br>
+            <p>负额差保护</p>
+          </div>
+          <div class="list"> <img src="images/jytj01_14.png" alt="" title=""/><br>
+            <p>负额差保护</p>
+          </div>
+          <div class="list"> <img src="images/jytj_bzj_10.png" alt="" title=""/><br>
+            <p>过夜或周末保证金<br>
+              无变化</p>
+          </div>
+        </div>
+        <div class="right gycw jytjImg">
+          <h2>CGM的展期交割</h2>
+          <div class="list"> <img src="images/jytj_gycw_03.png" alt="" title=""/><br>
+            <p>有竞争力的掉期利率</p>
+          </div>
+          <div class="list"> <img src="images/jytj_gycw_05.png" alt="" title=""/><br>
+            <p>透明隔夜利息</p>
+          </div>
+          <div class="list"> <img src="images/jytj_gycw_09.png" alt="" title=""/><br>
+            <p>3日展期交割策略</p>
+          </div>
+          <div class="list"> <img src="images/jytj01_07.png" alt="" title=""/><br>
+            <p>依照现行利息率</p>
+          </div>
+        </div>
+        <div class="right jysj jytjImg">
+          <h2>我们提供</h2>
+          <div class="list"> <img src="images/jytj_jysj_03.png" alt="" title=""/><br>
+            <p>24小时/全天在线<br>
+              电话交易</p>
+          </div>
+          <div class="list"> <img src="images/jytj_jysj_06.png" alt="" title=""/><br>
+            <p>星期日22:05 GMT至<br>
+              星期五21:50 GMT</p>
+          </div>
+          <div class="list xinxi"> <img src="images/jytj01_14.png" alt="" title=""/><br>
+            <p>实时市场信息</p>
+          </div>
+          <div class="list news"> <img src="images/jytj01_12.png" alt="" title=""/><br>
+            <p>最新金融新闻</p>
+          </div>
+          <div class="list service"> <img src="images/jytj_jysj_14.png" alt="" title=""/><br>
+            <p>24/5客服支持</p>
+          </div>
+        </div>
+      </div>
+      <!--点差 -->
+      <div class="jytjContent hide">
+        <div class="clear">
+          <div class="left"><img src="images/jytj01_23.png" alt="" title=""/></div>
+          <div class="left"> <br>
+            <p>为了尽可能将点差压到最小值, 我们从70多个流动资金提供商和银行里面选择最佳的价格。我们的电子定价工具允许<br>
+              我们每一秒钟对所有货币进行三次更新，因此我们的价格反映了全球外汇最低的价格。</p>
+            <p class="right"> -- John Papatheodoulou, 首席交易员</p>
+          </div>
+        </div>
+        <p>　　CGM为所有交易者提供了不同类型的账户和交易商品，但是点差全部一样。且不收取任何额外费用或佣金，无一例外。 我们认为只有在便
+          捷执行的基础上，点差的大小才有意义。这就是我们重视执行速度的原因。</p>
+        <h2>固定或可变点差</h2>
+        <p>　　与同业银行的外汇市场一样，CGM 提供浮动点差。因为综合下来固定点差通常比浮动点差大很多。 在许多情况下，提供固定点差的外汇经
+          纪商在新闻发布期间施加交易限制。而XM对 新闻发布期间的交易无任何限制。</p>
+        <h2>小数点后五位报价</h2>
+        <p>　　CGM提供小数点后五位报价。不同于常规的 4-位数 报价, 客户可以通过增加第五位数部分，从最少的价格波动中获利。 分数精准定价，您
+          的交易可以享受低点差，最准确报价。</p>
+      </div>
+      <!--保证金 -->
+      <div class="jytjContent">
+        <h2>灵活杠杆从1:1 到 500:1</h2>
+        <p> 　　　　保证金是交易操作期间投保任何信贷风险的抵押金额。</p>
+        <br>
+        <p>保证金以头寸大小百分比计(比如：5% 或 1%), 交易账户需要入金的唯一原因就是确保保证金足够。例如，保证金为 1% 时，价值1,000,000 美元
+          的头寸所需的保证金为 10,000美元。</p>
+        <h2>关于交易杠杆</h2>
+        <p>　　通过使用交易杠杆，您可以放大交易账户中的入金头寸。交易杠杆金额以比率计算, 比如 50:1, 100:1, 或者500:1。假设您的交易账户拥有1,000
+          美元，您的交易单价值 为500,000美元/日元, 那么您的交易杠杆等同于 500:1.</p>
+        <br>
+        <p>　　为什么您可以以余额500倍的金额进行交易? 在XM，无论您何时使用保证金，您都拥有自由的 短期贷款限额，: 这使您能够购买超过账户价值的金
+          额。在无该限额的情况下，您只能一次购买或出售价值1,000的交易单。</p>
+        <h2>CGM交易杠杆</h2>
+        <p>　　对于任何CGM交易账户，您可以选择从1:1 至888:1.的杠杆大小。保证金要求在整周内不会改变，并且不会在隔夜或周末时增加。另外，在
+          CGM，您可以选择升高或降低您现有的杠杆。</p>
+        <h2>交易杠杆风险</h2>
+        <p>　　一方面，即使您的初始投资额相对较小，您也可以通过交易杠杆获取相当可观的利润。另一方面，如果您未能进行适当的风险管理，您的亏损也可能加剧。</p>
+        <br>
+        <p>CGM 提供了交易杠杆的范围，能够帮助客户选择喜欢的风险水准。同时，我们也不建议交易杠杆接近888:1的交易，因为风险比较高。</p>
+        <h2>保证金监测</h2>
+        <p>　　在 CGM ，您可以通过监测来看管您的保证金，同时控制实时风险敞口。</p>
+        <br>
+        <p>占用保证金和自由保证金组成您的净值。占用保证金 是指您用来维持交易的金额。(比如：如果您将账户的交易杠杆设置为100:1, 那么您需要留出
+          交易额的1% 作为保证金)。自由保证金 是您留在交易账户中的资金，它随着账户的净值浮动；您可以用它开立其他头寸或承担亏损。</p>
+        <h2>追加保证金</h2>
+        <p>　　在 CGM ，您可以通过监测来看管您的保证金，同时控制实时风险敞口。
+          
+          虽然每个客户负责监控自己账户的盈亏状况， 但是cgm在您账户即将爆仓时，会给予追加保证金提醒，以确保您的账户不会完全爆仓。
+          
+          一旦您的账户资产净值低于维持开仓所需保证金的50%时，我们会向您发送追加保证金邮件提醒，来警告您已没有足够金额来维持敞口头寸。
+          
+          如果 您习惯于电话交易 ，当我们认为您不能维持开仓时，您会收到 我们后台拨出的保证金追加电话，告知您需要存入足够的金额来维持您的敞口头寸。</p>
+        <h2>强平标准</h2>
+        <p>　　强平标准是您建立的仓位自动关闭时候的净值水平。 微型和标准账户，强平标准都是20%。</p>
+      </div>
+      <div class="jytjContent">
+        <h2>CGM延期付款政策</h2>
+        <p>　　CGM会给客户最有利的隔夜利息政策。<br>
+          星期六和星期日（市场关闭）不进行展期交割，但银行仍将周所持有的任何仓位的利息计算在内。为了抚平该时间差，CGM 于每周三实施 3日展
+          期交割政策。</p>
+        <h2>关于展期交割</h2>
+        <p> 　　展期交割是延长开仓交割日(比如：已执行交易的交割日期)的行为。外汇市场允许所有的即期交易在两个营业日内完成。</p>
+        <br>
+        <p>但是，保证金交易中没有实际交割，所以所有的开仓必须在每日盘后关闭（22:00 GMT），并在下一个交易日重新开立。这使得交割时间延长了一个交易日。该行为被称为展期交割。</p>
+        <br>
+        <p>展期交割通过隔夜利息合同确立，其可能给交易者带来损失或者利润。XM 不关闭或重新开立任何仓位，但将所产生的隔夜利息对账户进行增减，
+          增减的大小取决于现行利息率 (伦敦银行间拆放款利率/伦敦银行同业拆出利率)。 </p>
+        <h2>计算展期交割</h2>
+        <p>　　 每笔货币交易的原理是借贷一种货币来购买另一种货币。按照借贷货币的利息率支付利息，或按照购买货币的利息率获取利息。例如，我们假设日本和美国的利息率分别是0.25% p.a. 和 2.5% p.a. ，而您购买1手价钱为118.50的USDJPY对子，那么您将按照美元2.5% 年率获取利息并
+          按照借贷日元0.25% 年利率支付利息。</p>
+        <br>
+        <p>这意味着您的开仓会给您获取每天6.16美元的利息[100,000* (2.5%-0.25%)/365]。该笔金额会每天自动加入到您的账户中，相当于每天赚取0.73
+          基点 [118.50* (2.5%-0.25%)/365]。 相同，如果您拥有一个USDJPY的空头，那么您会每天损失 6.16美元。因此，隔夜利息可为您提供额外的利
+          润或亏损。 </p>
+        <h2>预订展期交割</h2>
+        <p>　　 22:00 GMT 被认为是外汇交易日的起讫时间。 在22:00 GMT 点整仍敞开的仓位将被展期交割并核算过夜利息。在22:01 开立的仓位将不被
+          算作展期交割。但是，如果您在21:59开立仓位，展期交割会在 22:00 GMT执行。对于在22:00开立的所有仓位，利息对于您账户的影响会在1个小
+          时候后在您的MT4中体现出来。 </p>
+      </div>
+      <div class="jytjContent">
+        <h2>外汇市场开放时间</h2>
+        <p>　　市场从不停止它的步伐。XM的交易也是。一个外汇市场关闭后，另一个又会开始。因此客户可以享受到24/5循环交易，纽约交易时间是
+          01:00 pm – 10:00 pm GMT; 悉尼交易时间是10:00 pm GMT; 东京交易开始于00:00 am ，结束于9:00 am GMT;伦敦交易时间开始于
+          8:00 am，结束于 05:00 pm GMT。这使得全世界的交易者以及所有大洲的中央银行的参股者可以进行24小时（全天）交易。</p>
+        <h2>更多交易时间，更多可能性</h2>
+        <p>　　外汇市场全天24小时开放，知道最活跃的交易时段是很重要的。</p>
+        <br>
+        <p>例如，如果我们选择一个交易量少的时段，美国东部标准时间5 pm – 7 pm EST也就是在纽约关闭之后、东京开门之前。这时候只有悉尼开始交
+          易，于是这个时间段的点差跟伦敦、美国和东京相比较，点差相对于高些。交易机会少也就意味着金融机遇少。如果您想要交易EUR/USD、GBP/
+          USD或USD/CHF，您会发现 8 am – 12 am GMT这个时段的交易机会较多，此时欧洲和美国的交易市场都在营业。</p>
+        <h2>警觉性和机遇性</h2>
+        <p> 另一个需要各位投资者警惕的是政府报告和官方紧急新闻发布的时间。虽然每个政府都会提前公布新闻发布的确切时间,但由于时差问题，每
+个国家的发布时间也就不同。</p><br>
+
+<p>所以找出不同国家的发布时间是很有价值的。大多数时候，它与外汇交易最激烈的时间一致。所以这对于投资者有着很大的获利机会，但是同时也
+有可能事与愿违。</p><br>
+
+<p>作为交易者，您有两个选择：您可以参与外汇交易激烈的时段从高浮动中获取更高的利润；或者在这些时间段内决定暂停交易，以保守的方式进行
+外汇交易。无论您选择哪一个，您应该未雨绸缪，以防新闻发布时的价钱突变导致您亏损。</p>
+        <h2>交易时间</h2>
+        	<p>   对日间交易者来说，交易效率最高的时间是伦敦市场开始08:00 GMT 到美国市场结束 22:00 GMT. 交易的高峰时间是美国和伦敦市场的重
+叠交易时间1 pm GMT – 4 pm GMT。一天的几个主要交易市场是伦敦、美国和亚洲市场。</p><br>
+
+<p>以下是交易时间的简要概述，可以帮助您充分利用市场：</p><br>
+
+<p>伦敦高峰交易时间 –8 am GMT至5 pm GMT;欧元、英镑和美元是交易最频繁的货币；</p><br>
+
+<p>美国高峰交易时间 – 是 1 pm GMT 至 10 pm GMT; 美元、欧元、英镑、澳元和日元是交易最频繁的货币；</p><br>
+
+<p>亚洲高峰交易时间 –从星期日下午10 pm GMT 至欧洲交易开始，大约 9 am GMT左右; 不太适合日间交易。</p>
+        <h2>电话交易</h2>
+        <p>       CGM 的交易时间是 星期日 22:05 GMT（格林威治标准时间) 至星期五 21:50 GMT（格林威治标准时间。当我们的交易后台关闭后，交易
+平台不再执行交易，数据只能观看。</p><br>
+
+<p> 对于任何咨询，技术上的困难，或者紧急支持，欢迎随时通过电子邮件或即时聊天联系我们24小时在线客服。如果您身边没有电脑，请牢记你的账
+户登录信息，以便我们的团队解决您订单的问题。</p><br>
+
+<p> 在现有仓位上平仓、设置盈利或止损订单时，您同样需要提供单号给我们。然后，您只需说明货币对子和交易手数。(比如：我想要10手EUR/USD
+的报价)。请记住：如果密码验证失败或您不希望执行密码验证，那么我们不能执行您的电话订单。</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="bot">
+  <iframe width="100%" height="660" src="bottom.html" scrolling="no" frameborder="0"></iframe>
+</div>
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+	$(function(){
+		$('.accountType_box .title ul li').click(function(){
+			var mc=$('.menuContent');
+			var index=$(this).index();
+			$(this).addClass('active').siblings().removeClass('active');
+			mc.eq(index).show().siblings('.menuContent').hide();
+			})
+		$('.accountType_box .title ul li').eq(3).click();
+		
+		$('.menuContent .menu').click(function(){
+			 $(this).children('a').toggleClass('arrowChange').parent().siblings('.detail').slideToggle(100);
+			})
+		$('.level2Menu li').click(function(){
+			var index=$(this).index();
+				$(this).addClass('activeMenu').children('a').addClass('activeAlink')
+			.end().siblings('li').removeClass('activeMenu').children('a').removeClass('activeAlink')
+			
+			$('.jytjBox .jytjImg').eq(index).show().siblings('.jytjImg').hide();
+			$('.jytjBox .jytjContent').eq(index).show().siblings('.jytjContent').hide();
+		})
+		$('.level2Menu li:eq(0)').click();
+			
+})
+ 
+</script>
+</html>

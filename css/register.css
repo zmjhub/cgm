@@ -1,0 +1,233 @@
+/* CSS Document */
+*{
+	font-family:"FZDHTJW";
+}
+.register{
+	width:100%;
+	height:;
+	background:url(../images/map_bj.jpg) no-repeat center;
+	 
+}
+.registerBox{
+	width:1000px;
+}
+.registerBox .registerBox_left{
+	width:55%;padding-top:15px;
+}
+ 
+.registerBox .left h5{
+	background:url(../images/icon.png) no-repeat;
+	text-indent:2em;
+	margin-top:20px;
+}
+.registerBox .left .suo{
+	background-position:0 -185px;
+}.registerBox .left .time{
+	background-position:0 -227px;
+}.registerBox .left .edit{
+	background-position:0 -262px;
+}
+.personalInfo{
+	margin-top:35px;
+}
+.box_info{
+	padding-left:20px;
+}
+.box_info .left,.box_info .right{
+	width:260px;
+	height:auto;
+	 
+}
+.box_info  p{
+	margin-top:12px;
+}
+.box_info label{
+	color:red;
+}
+.box_info input{
+	width:240px;
+	height:26px;
+}
+.box_info select{
+	width:240px;
+	height:30px;
+}
+.box_info .next{
+	display:inline-block;
+	width:240px;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	text-align:center;
+	background-color:#79282e;
+	margin:40px 144px;
+}
+#addAcount{
+	display:block;
+	width:240px;
+	height:40px;
+	background-color:#fff;
+	line-height:40px;
+	color:#79282e;
+	font-size:24px;
+	text-indent:3em;
+	background-image:url(../images/and.png);
+	background-position:43px 6px;
+	background-repeat:no-repeat;
+	margin-top:15px;
+}
+
+.registerBox .right .except{
+	margin-bottom:30px;
+}
+.registerBox .right h5{
+	margin-top:10px;
+	line-height:20px;
+	margin-bottom:30px;
+}
+.registerBox .apply{
+	width:40%;
+	padding:15px;
+	border-left:1px solid gray;
+}
+/*-------注册第二步-----------*/
+.regisLeft2{
+	height:360px !important;
+}
+.investorInfo .infoBox{
+	width:1000px;
+	position:relative;
+    padding: 30px;
+}
+ 
+.infoBox:after{
+	position:absolute;
+	content:"";
+	border-top:1px solid gray;
+	width:530px;
+	left:0;
+	bottom:0;
+}
+.infoBox p{
+	margin-top:15px;
+	margin-left:20px;
+}.infoBox .left{
+	margin-right:10px;
+}
+.infoBox label{
+	color:red;
+}
+.infoBox select{
+	width:240px;
+	height:30px;	 
+}
+.register2 .riskTip{
+	margin-top:20px;
+	position:relative;
+}
+.register2 .riskTip:after{
+	position:absolute;
+	content:"";
+	border:1px solid gray;
+	height:340px;
+	left:-18px;
+	top:-11px;
+}
+.riskTip .item{
+	margin-top:20px;
+}
+.item .left{
+	margin-left:0px;
+}
+.item .left p{
+	width:360px;
+	line-height:25px;
+}
+.item .left input{
+	width:20px;
+	height:20px;
+	float:left
+}
+.item label{
+	color:red;
+	margin:5px 8px;
+	float:left; 
+}
+.register2 .zhenshi{
+	width:1000px;
+}
+.register2 .zhenshi .accountPwd{
+	margin-top:50px;
+}
+.zhenshi .accountPwd label{
+	color:red;
+}
+.zhenshi .accountPwd input{
+	width: 240px;
+    height: 26px;
+	margin-right:20px;
+}
+.accountPwd h4{
+	margin:20px 0 30px 30px; 
+}.accountPwd p{
+	margin:10px 30px;
+}
+.zhenshi .openAccount{
+	display:block;
+	width:240px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:25px;
+	color:#fff;
+	background-color:#5f2024;
+	margin:50px 160px;
+}
+/*----------模拟注册页面------------*/
+.register3 .box_info input{
+	height:26px;
+}
+.register3 .infoBox:after{
+	position:static;
+}
+.moniPwd .accountPwd{
+	width:1000px;
+}
+.moniPwd label {
+    color: red;
+}
+.moniPwd .accountPwd input{
+	width:240px;
+	height:26px;
+}
+.moniPwd .accountPwd h4{
+	margin: 20px 0 10px 20px;
+}
+.moniPwd .accountPwd p {
+    margin: 10px 20px;
+}
+.moniPwd .accountPwd .openAccount {
+    display: block;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #5f2024;
+    margin: 50px 160px;
+}
+.register3 .reason ul{
+	margin-top:25px;
+}
+.register3 .reason ul li{
+	display:block;
+	line-height:25px;
+	text-indent:1em;
+	background:url(../images/icon.png) no-repeat;
+	background-position:-9px -291px;
+}
+.register3 .reason p{
+	margin:1em 2em;
+	line-height:25px;
+}

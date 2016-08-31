@@ -1,0 +1,538 @@
+/* CSS Document */
+/*修改密码*/
+.userCenter .content{
+	width:820px;
+}
+.userCenter .content>.left{
+	width:600px;
+	height:auto;
+}
+.userCenter .content>.right{
+	
+	height:auto;
+	padding-left:25px;
+}
+.checkRenzheng{
+	width:555px;
+	border:1px solid #79282e;
+	padding-top:15px;
+	padding-left:35px;
+}
+.checkRenzheng h2 img{
+	margin-bottom:-5px;
+}
+
+
+
+/*会员中心右边菜单*/
+.userCenter .operate a{
+	width:190px;
+	height:45px;
+	font-size:20px;
+	display:block;
+	border:1px solid #79282e;
+	margin-bottom:10px;
+	line-height:45px;
+	text-align:center;
+	color:#79282e;
+}
+.operate .notShenhe{
+	background:url(../images/userCenter01_03.png) no-repeat;
+	background-size:30px;
+	background-position:10px;
+}
+.myNav li{
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	border-bottom:1px solid #919191;
+	border-left:1px solid #919191;
+	
+}
+.myNav .compass{
+	border-bottom:0;
+}
+.myNav li a{
+	width: 100%;
+    display: block;
+    text-indent: 1.5em;
+    color: gray;
+    font-size: 16px;
+    margin-left: 20px;
+    background: url(../images/icon02_01.png) no-repeat;
+    background-position: 0 9px;
+}
+.format a,.uploadFiles2 a{
+	line-height: 40px;
+    font-size: 16px;
+    color: #79282e;
+    display: block;
+    margin-right: 10px;
+}
+.format a i,.uploadFiles2 a i
+{
+	display: block;
+    float: left;
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon02_01.png) no-repeat;
+    background-position: 0 -61px;
+}
+.alterPwd .left .warm{
+	margin:25px 0 35px 0;
+}
+.alterPwd .left .tools{
+	font-size:25px;
+}
+.alterPwd form{
+	margin:40px 0 0 20px;
+}
+.alterPwd form label{
+	font-size:16px;
+	color:#79282e;
+	
+}
+.alterPwd form p{
+	margin:5px 0;
+}
+.alterPwd form .pwdInput{
+	margin-bottom:30px;
+}
+.alterPwd form input[type="password"]{
+	width:240px;
+	height:26px;
+	border:1px solid #9c9c9c;
+	background-color:#eaeaea;;
+}
+.alterPwd form .confirm{
+	float:left;
+	margin-left:40px;
+}
+input[type="submit"]{
+	display: block;
+    width: 130px;
+    height: 35px;
+    background-color: #79282e;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+}
+/*---------------请求-------------*/
+
+.request .content{
+	width:820px;
+	padding-top:30px;
+}
+.userCenter .content>.left{
+	width:600px;
+	height:auto;
+}
+ 
+.userCenter .content>.right{
+	
+	height:auto;
+	padding-left:25px;
+}
+
+
+.operate .notShenhe{
+	background:url(../images/userCenter01_03.png) no-repeat;
+	background-size:30px;
+	background-position:10px;
+}
+
+
+.myNav .compass{
+	border-bottom:0;
+}
+.request select{
+	width:240px;
+	height:30px;
+}
+.request input{
+	width:236px;
+	height:26px;
+}
+.request .title{
+	font-size:25px;
+}
+.request .title~h2{
+	margin:30px 0 10px 0;
+}
+.request h4{
+	margin-top:25px;
+	margin-bottom:10px;
+}
+.request textarea{
+	resize:none;
+}
+form #apply{
+	width:240px;
+	height:35px;
+	border:0;
+	margin-top:30px;
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	line-height:35px;
+	background-color:#79282e;
+}
+/*-------------入金--------------*/
+
+.userCenter .content{
+	width:820px;
+}
+.userCenter .content>.left{
+	width:600px;
+	height:auto;
+}
+.userCenter .content>.right{
+	
+	height:auto;
+	padding-left:25px;
+}
+.checkRenzheng{
+	width:555px;
+	border:1px solid #79282e;
+	padding:15px 5px 15px 35px;
+}
+.checkRenzheng h2 img{
+	margin-bottom:-5px;
+}
+.checkRenzheng>p{
+	line-height:25px;
+}
+
+.userInfo  .right{
+	 margin-right: 20px;
+    line-height: 30px;
+}
+.userCenter .problem{
+	font-size:25px;
+	font-weight:bold;
+	margin:40px 35px;
+}
+
+
+
+
+.myNav .compass{
+	border-bottom:0;
+}
+
+.channel .list{
+	width:25%;
+	float:left;
+	margin-top:50px;
+}
+.channel .list a{
+	display:block;
+	width:110px;
+	height:28px;
+	line-height:28px;
+	font-size:16px;
+	text-align:center;
+	color:#fff;
+	background-color:#79282e;
+}
+/*-------------入金2-----------------*/
+
+.userCenter .content{
+	width:820px;
+}
+.userCenter .content>.left{
+	width:600px;
+	height:auto;
+}
+.userCenter .content>.right{
+	
+	height:auto;
+	padding-left:25px;
+}
+.checkRenzheng{
+	width:555px;
+	border:1px solid #79282e;
+	padding:15px 5px 15px 35px;
+}
+.checkRenzheng h2 img{
+	margin-bottom:-5px;
+}
+.checkRenzheng>p{
+	line-height:25px;
+}
+
+.userInfo  .right{
+	 margin-right: 20px;
+    line-height: 30px;
+}
+.userCenter .problem{
+	font-size:25px;
+	font-weight:bold;
+	margin:40px 35px;
+}
+
+.myNav .compass{
+	border-bottom:0;
+}
+
+.ruJin_form{
+	margin-top:50px;
+}
+.ruJin_form label{
+	color:#79282e;
+	width:220px;
+	font-size:20px;
+	display:inline-block;
+	text-align:right;
+	margin-bottom:20px;
+}
+.ruJin_form select{
+	width:210px;
+	height:30px;
+}
+.ruJin_form input[type="text"]{
+	width:206px;
+	height:26px;
+}
+.ruJin_form input[type="submit"]{
+	width:150px;
+	height:35px;
+	display:block;
+	background-color:#79282e;
+	border:0;
+	color:#fff;
+	font-size:20px;
+	margin:20px 0 0 240px;
+}
+/*----------上传--------------*/
+.userCenter .content{
+	width:820px;
+}
+.userCenter .content>.left{
+	width:600px;
+	height:auto;
+}
+.userCenter .content>.right{
+	height:auto;
+	padding-left:25px;
+}
+.checkRenzheng{
+	width:555px;
+	border:1px solid #79282e;
+	padding-top:15px;
+	padding-left:35px;
+}
+.checkRenzheng h2 img{
+	margin-bottom:-5px;
+}
+.userInfo  .right{
+	 margin-right: 20px;
+    line-height: 30px;
+}
+.userCenter .problem{
+	font-size:25px;
+	font-weight:bold;
+	margin:40px 35px;
+}
+.linkProblem a{
+	line-height:40px;
+	font-size:16px;
+	color:#79282e;
+	display:block;
+	float: left;
+    margin-right: 50px;
+}
+.linkProblem a i{
+	display:block;
+	float:left;
+	margin-top:7px;
+	width:20px;
+	height:20px;
+	background:url(../images/icon02_01.png) no-repeat;
+	background-position:0 -61px;
+}
+.linkProblem{
+	margin-left:60px;
+}
+
+.operate .notShenhe{
+	background:url(../images/userCenter01_03.png) no-repeat;
+	background-size:30px;
+	background-position:10px;
+}
+
+.myNav .compass{
+	border-bottom:0;
+}
+
+.uploadFiles1 a,.uploadFiles2 a{
+	line-height: 40px;
+    font-size: 16px;
+    color: #79282e;
+    display: block;
+    margin-right: 50px;
+}
+.uploadFiles1 a i,.uploadFiles2 a i
+{
+	display: block;
+    float: left;
+    margin-top: 7px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon02_01.png) no-repeat;
+    background-position: 0 -61px;
+}
+.upload .warm{
+	margin:45px 0;
+}
+.identify input{
+	float:left;
+}
+.identify input[type="text"]{
+	width:330px;
+	height:35px;
+	border:1px solid #9c9c9c;
+	background-color:#eaeaea;
+}
+.identify input[type="file"]{
+	width:50px;
+	height:37px;
+	outline:none;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.upload h3{
+	margin:45px 0 20px 5px;
+}
+.identify .reset{
+	display:inline-block;
+	margin-left:45px;
+	margin-top: 8px;
+	color:#79282e;
+}
+.identify+p{
+	margin:20px 0 40px;
+}
+.identify{
+	position:relative;
+	overflow:hidden;
+}
+.identify a:first-child{
+	position:absolute;
+	width:70px;
+	height:37px;
+	content: "浏览";
+    left:330px;
+    bottom: 0px;
+    width: 70px;
+    height: 37px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    background-color: #79282e;
+}
+.identify a:first-child:hover{
+	cursor:default;
+}
+.btnSubmit{
+	display:block;
+	width:220px;
+	height:40px;
+	background-color:#79282e;
+	font-size:25px;
+	color:#fff;
+	border:0;
+}
+/*----------会员中心------------*/
+.userCenter{
+	background:url(../images/map_bj.jpg) no-repeat;
+}
+.userCenter .content{
+	width:820px;
+}
+.userCenter .content>.left{
+	width:600px;
+	height:auto;
+}
+ 
+.userCenter .content>.right{
+	
+	height:auto;
+	padding-left:25px;
+}
+.checkRenzheng{
+	width:555px;
+	border:1px solid #79282e;
+	padding-top:15px;
+	padding-left:35px;
+}
+.checkRenzheng h2 img{
+	margin-bottom:-5px;
+}
+.userCenter .goRenzheng{
+	width:240px;
+	display:block;
+	text-align:center;
+	padding:5px 0;
+	margin:20px 0;
+	color:#fff;
+	font-size:18px;
+	background-color:#79282e;
+}
+.userCenter .userName{
+	margin:50px 35px;
+	font-size:24px;
+}
+.userInfo .headImg img{
+	width:150px;
+	height:150px;
+	float:left;
+	margin:0 25px;
+}
+#chooseImg{
+	text-indent:2em;
+	background:url(../images/icon02_01.png) no-repeat;
+	background-position:0 -103px;
+	display:block;
+	float:left;
+}
+.userInfo  .right{
+	 margin-right: 20px;
+    line-height: 30px;
+}
+.userCenter .problem{
+	font-size:25px;
+	font-weight:bold;
+	margin:40px 35px;
+}
+.linkProblem a{
+	line-height:40px;
+	font-size:16px;
+	color:#79282e;
+	display:block;
+	float: left;
+    margin-right: 50px;
+}
+.linkProblem a i{
+	display:block;
+	float:left;
+	margin-top:7px;
+	width:20px;
+	height:20px;
+	background:url(../images/icon02_01.png) no-repeat;
+	background-position:0 -61px;
+}
+.linkProblem{
+	margin-left:60px;
+}
+
+.operate .notShenhe{
+	background:url(../images/userCenter01_03.png) no-repeat;
+	background-size:30px;
+	background-position:10px;
+}
+
+.myNav .compass{
+	border-bottom:0;
+}

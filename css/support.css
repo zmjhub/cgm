@@ -1,0 +1,46 @@
+/* CSS Document */
+
+/*-------出入金---------*/
+.chuRuJin{
+	margin:50px 0;
+}
+.chuRuJinBox{
+	width:900px;
+	padding-left:50px;
+}
+.chuRuJinBox .menu
+{
+	width: 100%;
+    height: 50px;
+    margin: 40px 0 0 0;
+    background-color: #e1e1e1;
+    text-indent: 2em;
+    line-height: 50px;
+    border-left: 2px solid #acacac;
+}
+.chuRuJinBox .detail{
+	padding:20px 2em;
+	border:1px solid gray;
+	border-top:0 !important;
+}
+.chuRuJinBox .title{
+	padding:2px 0;
+	border-bottom:1px solid #000;
+}
+.chuRuJinBox h1{
+	padding:5px;
+	border-left:2px solid #79282e;
+	
+}
+.chuRuJinBox .menu>h3{
+	float:left;
+}
+.chuRuJinBox .menu>a
+{
+	display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/rujin_10.png);
+    background-repeat: no-repeat;
+    background-position: 0 -5px;
+}

@@ -1,0 +1,88 @@
+/* CSS Document */
+.menuContent {
+    width: 900px;
+    margin-left: 50px;
+}
+.menuContent h2{
+    margin: 25px 0;
+    text-indent: 1.5em;
+    background: url(../images/icon.png) no-repeat;
+    background-position: -51px -120px;
+}
+.jycp .menuContent .list{
+	width:250px;
+	margin-right:50px;
+	margin-top:15px;
+	text-align:center;
+	float:left;
+}
+.typeAccountActive{
+	background-color:#79282e !important;
+	color:#fff !important;
+}
+
+.typeAccount span{
+	display:block;
+	float:left;
+	width:40%;
+	height:50px;
+	font-size:20px;
+	text-align:center;
+	line-height:50px;
+	background-color:#d6d6d6;
+	color:#000;
+	margin-bottom:10px;
+	position:relative;
+}
+.typeAccount span i{
+	position:absolute;
+	left:50%;
+	bottom:-10px;
+	margin-left:-10px;
+	border-left:20px solid transparent;
+	border-right:20px solid transparent;
+	border-top:15px solid #79282e;
+}
+.jycp table{
+	width:805px;
+	margin-top:20px;
+}
+.diancha table{
+	border-collapse:collapse;
+}
+.diancha table tr td{
+	text-align:center;
+	height:30px;
+	border-bottom:1px solid #cacaca;
+	border-right:1px solid #757575;
+	
+}
+.diancha table .title{
+	background-color:#79282e;
+	height:40px;
+	color:#fff;
+	font-size:17px;
+}
+.jycp .jyTime{
+	margin:35px 0;
+}
+.jycp .jyTime .left{
+	margin-right:30px;
+}
+.decrible p{
+	line-height:25px;
+	margin-top:15px;
+	width:800px;
+	margin-left:1em;
+}
+/*--贵金属---*/
+.otherGuijinshu span{
+	width:29%;
+	border-left:1px solid gray;
+}
+.guiJinshu .p_title{
+	font-size:20px;
+	font-weight:bold;
+}
+/*指数*/
+ 

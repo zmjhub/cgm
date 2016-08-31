@@ -1,0 +1,27 @@
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre,  
+dl, dt, dd, ul, ol, li, th, td, div, span, img,  
+fieldset, lengend, button, input, select, textarea{margin: 0;padding: 0;} 
+body, button, input, select, textarea { /* for ie */  
+    font: 14px  Microsoft YaHei,Arial, Verdana;
+	color:gray;
+}
+h1 {font-size: 22px;}  
+h2 {font-size: 18px;}  
+h3 {font-size: 16px;}  
+h4{
+	font-size:14px;
+}
+h5,h6{
+	font-size:12px;
+}
+a{text-decoration: none; }  
+/*a:hover {text-decoration: underline;} */
+ul,ol {list-style: none;} 
+/* float & clear */  
+.left{float:left;}  
+.right{float:right;}  
+.clear {clear: both;display: block;overflow:hidden;}
+.box-center{
+	margin:0 auto;
+}

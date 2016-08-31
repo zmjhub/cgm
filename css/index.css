@@ -1,0 +1,242 @@
+/* CSS Document */
+/*-----------------轮播图--------------*/
+	.slideBox{ overflow:hidden; position:relative; border:0px solid #ddd;max-width: 1400px; width: 100%;margin:0 auto;}
+		.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; 
+		z-index:1; }
+		.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+		.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+		.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+		.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+		.slideBox .bd li{ zoom:1; vertical-align:middle; }
+		.slideBox .bd img{ display:block;  }
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+		.slideBox .prev,
+		.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; 
+		width:32px; height:40px; background:url(../images/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+		.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+		.slideBox .prev:hover,
+		.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+		.slideBox .prevStop{ display:none;  }
+		.slideBox .nextStop{ display:none;  }
+	
+/*----行情动态----------*/
+.hqBox{
+	background-image:url(../images/map.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.box_hangqing{
+	width:1000px;
+}
+.box_hangqing .title{
+	margin-top:30px;
+	color:#4d191d;
+}
+.hqzn .data{
+	margin-top:30px;
+	padding-bottom:20px;
+}
+.more{
+	display:inline-block;
+	padding:3px;
+	color:#fff;
+	background-color:#79282e;;
+}
+.box_hangqing .qydt{
+	width:33%;
+}
+.qydt .ad_qydt{
+	padding:40px 5px 0 5px;
+	overflow:hidden;
+	height:230px;
+	position:relative;
+}
+.ad_qydt .order{
+	position:absolute;
+	bottom:10px;
+	right:35px;
+}
+.ad_qydt .order a{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border-radius:50%;
+	background-color:#4d191d;
+	color:#fff;
+}
+.orderChange{
+	background-color:#fff !important;
+	color:#4d191d !important;
+}
+.data .price{
+	margin-right:25px;
+}
+.data .price,.data .zhishu{
+	border:1px solid #ccc9c9;
+	border-radius:3px;
+}
+/*表格*/
+.tablePrice tr,.tableZhishu tr{
+	height:25px;	
+}
+.tablePrice tr td,.tableZhishu tr td{
+	padding:5px;
+	font-size:12px;
+}
+.tablePrice td i,.tableZhishu td i{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background-repeat:no-repeat;
+}
+.tablePrice td .reduce,.tableZhishu td .reduce{
+	background-image:url(../images/icon.png);
+	background-position:-5px -80px;
+}
+.tablePrice td .rise,.tableZhishu td .rise{
+	background-image:url(../images/icon.png);
+	background-position:-5px -100px;
+}
+.tablePrice td .shezhi,.tableZhishu td .shezhi{
+	background-image:url(../images/icon.png);
+	background-position:-5px -122px;
+}
+/*-------回拨电话-------*/
+.box_dialNum{
+	width:1000px;
+}
+.box_dialNum .telphone{
+	width:280px;
+	height:250px;
+	box-shadow: 1px 1px 5px 1px gray;
+	border-radius:5px;
+	margin:35px 35px 10px 4px;
+}
+.telphone h2{
+	color:#346567;
+}
+.ask .zixun{
+	background-color:#cecece;
+	margin:5px 0;
+}
+.ask span{
+	display:inline-block;
+	padding:5px 10px;
+	
+}
+.ask form label{
+	margin-left:30px;
+}
+
+.ask input{
+	width:60%;
+	height:25px;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+.zixunActive{
+	background-color:#79282e;
+	color:#fff;
+}
+.ask textarea{
+	width:170px;
+	height:40px;
+	resize:none;
+}
+.ask .zxnr{
+	display:inline-block;
+	width:42px;
+	float:left;
+}
+.ask .submit{
+	display:inline-block;
+	border-radius:5px;
+	padding:5px 10px;
+	background-color:#79282e;
+	color:#fff;
+	margin:15px 100px;
+}
+/*-----专家测评------*/
+.zjcp{
+	width:650px;
+}
+.zjcp .title{
+	margin-top:35px;
+	color:#4d191d;
+	padding-bottom:10px;
+	border-bottom:1px solid gray;
+}
+.zjcp ul li{
+	background-image:url(../images/icon.png);
+	background-repeat:no-repeat;
+	background-position: -12px -48px;
+	text-indent:1em;
+	height:35px;
+	line-height:35px;
+	border-bottom:1px dashed gray;
+}
+.zjcp ul li a{
+	color:gray;
+}
+.zjcp ul li a:hover{
+	text-decoration:underline;
+	color:#79282e;
+}
+/*------开户指南-----------*/
+.kaihu{
+	width:1000px;
+	margin-top:25px;
+}
+.kaihu .list{
+	width:225px;
+	height:225px;
+	text-align:center;
+	background-repeat:no-repeat;
+	padding-top:15px;
+	margin-right:30px;
+	position:relative;
+}
+.kaihu .list span{
+	width:165px;
+	height:165px;
+	display:block;
+	margin:0 auto;
+	border-radius:50%;
+	border:1px solid #fff;
+}
+.kaihu .list:hover span{
+	background-color: rgba(8, 15, 25, 0.5);
+}
+  
+.kaihu .list h2{
+	color:#fff;
+	margin-top:-40px;
+}
+.kaihu .list h5{
+	color:#cdcbcb;
+	margin-top:19px;
+}
+.kaihu .khzn{
+	background-image:url(../images/kh_01.jpg);
+}
+.kaihu .rjxz{
+	background-image:url(../images/kh_02.jpg);
+}
+.kaihu .cgmkw{
+	background-image:url(../images/kh_03.jpg);
+}
+.kaihu .zbdt{
+	background-image:url(../images/kh_04.jpg);
+	margin-right:0;
+}
+.kaihu .list a{
+	position:absolute;
+	width:100%;
+	height:100%;
+	display:block;
+	left:0;
+	top:0;
+}

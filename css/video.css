@@ -1,0 +1,86 @@
+/* CSS Document */
+
+.videoClass .video{
+	width:900px;
+	margin-top:50px;
+	height:auto;
+}
+.video .title{
+	padding-bottom: 5px;
+    border-bottom: 2px solid #79282e;
+    margin-bottom: 30px;
+}
+.video .title .colorRed{
+	font-size:30px;
+}
+.video .title .location{
+	margin-top:20px;
+}
+.video .videoList{
+	width:800px;
+}
+.videoList .list{
+	width:210px;
+	height:185px;
+	float:left;
+	margin-right:50px;
+	margin-bottom:40px;
+}
+.videoList .list h5{
+	margin:10px 0;
+}
+.videoList .list .img{
+	width:210px;
+	height:125px;
+	position:relative;
+	overflow:hidden;
+	
+}
+.videoList .list .img img{
+	transition:0.5s;
+}.videoList .list .img span{
+	position:absolute;
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	background-color:#000;
+	transition:0.5s;
+	left:50%;
+	top:50%;
+	opacity:0;
+	transform:translateX(-50%) translateY(-50%);
+}
+.videoList .list .img:hover img{
+	transform:scale(1.1);
+}
+.videoList .list .img:hover span{
+	opacity:0.8;
+}
+
+.icon-yuan i{
+	position:absolute;
+	left:55%;
+	top:50%;
+	transform:translateX(-50%) translateY(-50%);
+	border-left:20px solid white;
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+}
+.video .page a:not(.more) {
+    display: inline-block;
+    min-width: 15px;
+    border: 1px solid gray;
+}
+/*详情*/
+.videoDetail .videoContent .videoBig{
+	height:600px;
+}
+.video-list small:first-child{
+	background-position:0px -5px;
+}
+.videoContent .time{
+	background-position: 3px -3px !important;
+}
+.videoContent .num{
+	background-position: 3px -19px !important;
+}
